@@ -192,6 +192,7 @@ notebook-shim==0.2.4
     #   notebook
 numpy==1.26.4
     # via
+    #   learn-streamlit (pyproject.toml)
     #   altair
     #   pandas
     #   pyarrow
@@ -212,6 +213,7 @@ packaging==24.1
     #   streamlit
 pandas==2.2.2
     # via
+    #   learn-streamlit (pyproject.toml)
     #   altair
     #   streamlit
 pandocfilters==1.5.1
@@ -370,6 +372,8 @@ uri-template==1.3.0
     # via jsonschema
 urllib3==2.2.1
     # via requests
+watchdog==4.0.1
+    # via learn-streamlit (pyproject.toml)
 wcwidth==0.2.13
     # via prompt-toolkit
 webcolors==24.6.0
